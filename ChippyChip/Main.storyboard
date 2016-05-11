@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" id="7O6-Dx-um9">
+                                <rect key="frame" x="-8" y="-5" width="335" height="573"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ada-N0-esp">
+                                <rect key="frame" x="53" y="284" width="98" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="start_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7N1-ZN-cXw" kind="modal" id="MyS-PA-GhF"/>
+                                </connections>
+                            </button>
+                            <segmentedControl autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="rOM-Ny-x3W">
+                                <rect key="frame" x="100" y="296" width="121" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <segments>
+                                    <segment title="Tilt"/>
+                                    <segment title="Touch"/>
+                                </segments>
+                                <connections>
+                                    <action selector="decodeButton:" destination="vXZ-lx-hvc" eventType="valueChanged" id="TpL-hv-cQb"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Rga-tX-LMP">
+                                <rect key="frame" x="111" y="357" width="98" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="buttons.svg-g3977-857.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Settings:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="v0d-wV-KtK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EZ6-aW-AnY">
+                                <rect key="frame" x="146" y="345" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="Home:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1kS-6e-WVv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chipkraft 2016. All Rights Reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iSp-0X-bYH">
+                                <rect key="frame" x="32" y="543" width="299" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TITLE.png" id="52X-E0-Ho5">
+                                <rect key="frame" x="53" y="195" width="215" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9z7-kr-Nh8">
+                                <rect key="frame" x="13" y="541" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hvz-pF-OWa">
+                                <rect key="frame" x="170" y="284" width="98" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="buttons.svg-g3958-415.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Scorez:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uq4-t2-Hpb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0cW-5C-q7w"/>
+                    <connections>
+                        <outlet property="HighScore" destination="hvz-pF-OWa" id="xXl-5h-uJy"/>
+                        <outlet property="backToHome" destination="EZ6-aW-AnY" id="aro-5H-fDk"/>
+                        <outlet property="bg" destination="7O6-Dx-um9" id="VTo-xE-I51"/>
+                        <outlet property="scTouchTilt" destination="rOM-Ny-x3W" id="o7s-7k-lK4"/>
+                        <outlet property="settings" destination="Rga-tX-LMP" id="o8D-Fi-CUK"/>
+                        <outlet property="start" destination="ada-N0-esp" id="5GH-LV-ZoC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317" y="38"/>
+        </scene>
+        <!--Game Main-->
+        <scene sceneID="qSw-Hx-LIA">
+            <objects>
+                <viewController id="7N1-ZN-cXw" customClass="GameMain" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QHG-Z4-N2U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" id="DF2-i8-2PB">
+                                <rect key="frame" x="-1" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Xhg-Fk-PNW">
+                                <rect key="frame" x="169" y="328" width="98" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="buttons.svg-g4006-4294966863.png" backgroundImage="buttons.svg-g4006-4294966863.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="StartGame:" destination="7N1-ZN-cXw" eventType="touchUpInside" id="txI-3J-Hj3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="rhJ-QI-vqy">
+                                <rect key="frame" x="-76" y="12" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="6rd-Da-BFU">
+                                <rect key="frame" x="75" y="12" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="e3g-xs-fvL">
+                                <rect key="frame" x="-76" y="272" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="QlV-30-5fq">
+                                <rect key="frame" x="75" y="272" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="ade-aM-Tlg">
+                                <rect key="frame" x="75" y="532" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="t1a-LX-PyD">
+                                <rect key="frame" x="-71" y="402" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="ens-gn-K4h">
+                                <rect key="frame" x="-71" y="532" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="TtP-hm-EmG">
+                                <rect key="frame" x="75" y="402" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="lav-4d-bcd">
+                                <rect key="frame" x="-63" y="142" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branch.png" id="Jt2-Q4-NVX">
+                                <rect key="frame" x="88" y="142" width="295" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TRUNKleftno.png" id="txC-l7-1tv">
+                                <rect key="frame" x="-11" y="0.0" width="27" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TRUNKleftno.png" id="IHd-Wi-eGA">
+                                <rect key="frame" x="302" y="0.0" width="27" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TRUNKleftno.png" id="aK5-2R-NWR">
+                                <rect key="frame" x="265" y="-7" width="27" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SCOREBOARD.png" id="k5k-9E-m9o">
+                                <rect key="frame" x="250" y="24" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameover.svg-layer1-4294966698.png" id="wn4-d1-HVG">
+                                <rect key="frame" x="50" y="189" width="219" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hWH-Y9-Mnf">
+                                <rect key="frame" x="250" y="19" width="37" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TREE_RIGHT_FINAL.png" id="0UH-fP-diH">
+                                <rect key="frame" x="-236" y="52" width="321" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="chippyintree.png" id="UdC-pl-fHh">
+                                <rect key="frame" x="288" y="282" width="190" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="branchez.svg-g5828-04-88.png" id="dr5-2o-daQ">
+                                <rect key="frame" x="136" y="52" width="49" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="is8-jX-ySb">
+                                <rect key="frame" x="51" y="377" width="218" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="tapstart3.png"/>
+                                <connections>
+                                    <action selector="StartGame:" destination="7N1-ZN-cXw" eventType="touchUpInside" id="p6O-yy-am3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HPX-Wl-nVq">
+                                <rect key="frame" x="53" y="328" width="98" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="buttons.svg-g3997-4294966372.png" backgroundImage="buttons.svg-g3997-4294966372.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="GgZ-cE-jMv"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TRUNKleftno.png" id="JPV-Nd-yz2">
+                                <rect key="frame" x="20" y="-7" width="27" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left_final.png" id="nZC-nN-eUk">
+                                <rect key="frame" x="-88" y="377" width="167" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chippyintree.png" id="H9J-gs-scr">
+                                <rect key="frame" x="207" y="377" width="210" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rect.png" id="lkT-xv-RHA">
+                                <rect key="frame" x="-90" y="166" width="500" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Chip" destination="dr5-2o-daQ" id="yn7-tf-aw3"/>
+                        <outlet property="StartGame" destination="is8-jX-ySb" id="FFN-Lt-M0F"/>
+                        <outlet property="bg" destination="DF2-i8-2PB" id="ptp-AN-Fd7"/>
+                        <outlet property="branchLeft" destination="rhJ-QI-vqy" id="nge-Jd-rra"/>
+                        <outlet property="branchRight" destination="6rd-Da-BFU" id="uf9-8e-BNA"/>
+                        <outlet property="gameBack" destination="lkT-xv-RHA" id="0fB-8k-TvX"/>
+                        <outlet property="gameOver" destination="wn4-d1-HVG" id="1HU-P2-1y9"/>
+                        <outlet property="lb1" destination="lav-4d-bcd" id="WxH-AV-Nce"/>
+                        <outlet property="lb2" destination="e3g-xs-fvL" id="u3j-iC-j8K"/>
+                        <outlet property="lb3" destination="t1a-LX-PyD" id="NyM-Lf-HIv"/>
+                        <outlet property="lb4" destination="ens-gn-K4h" id="dHm-f2-L7D"/>
+                        <outlet property="menu" destination="HPX-Wl-nVq" id="JDe-x8-Q5k"/>
+                        <outlet property="rb1" destination="Jt2-Q4-NVX" id="IfZ-9p-ZAY"/>
+                        <outlet property="rb2" destination="QlV-30-5fq" id="IBm-KY-O9P"/>
+                        <outlet property="rb3" destination="TtP-hm-EmG" id="W1T-qF-iFk"/>
+                        <outlet property="rb4" destination="ade-aM-Tlg" id="rlx-tB-Wlv"/>
+                        <outlet property="reset" destination="Xhg-Fk-PNW" id="01r-i4-b5U"/>
+                        <outlet property="score" destination="hWH-Y9-Mnf" id="SYx-ZL-rQ0"/>
+                        <outlet property="scoreboard" destination="k5k-9E-m9o" id="MmJ-wI-WQC"/>
+                        <outlet property="startTreeLeft" destination="nZC-nN-eUk" id="9rf-xN-3Bl"/>
+                        <outlet property="startTreeRight" destination="H9J-gs-scr" id="0FM-rn-ard"/>
+                        <outlet property="treeLeft" destination="0UH-fP-diH" id="Y0p-UK-8kk"/>
+                        <outlet property="treeRight" destination="UdC-pl-fHh" id="Dvc-Af-vmU"/>
+                        <outlet property="trunkLeft" destination="txC-l7-1tv" id="qrc-ke-LHg"/>
+                        <outlet property="trunkLeft2" destination="JPV-Nd-yz2" id="itl-OK-3X1"/>
+                        <outlet property="trunkRight" destination="IHd-Wi-eGA" id="hHe-si-TbK"/>
+                        <outlet property="trunkRight2" destination="aK5-2R-NWR" id="g81-cD-zbC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ee-e5-NW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757" y="43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SCOREBOARD.png" width="88" height="51"/>
+        <image name="TITLE.png" width="253" height="51"/>
+        <image name="TREE_RIGHT_FINAL.png" width="283" height="325"/>
+        <image name="TRUNKleftno.png" width="32" height="480"/>
+        <image name="back.png" width="468" height="834"/>
+        <image name="branch.png" width="263" height="16"/>
+        <image name="branchez.svg-g5828-04-88.png" width="47" height="70"/>
+        <image name="buttons.svg-g3958-415.png" width="115" height="53"/>
+        <image name="buttons.svg-g3977-857.png" width="116" height="53"/>
+        <image name="buttons.svg-g3997-4294966372.png" width="115" height="53"/>
+        <image name="buttons.svg-g4006-4294966863.png" width="115" height="53"/>
+        <image name="chippyintree.png" width="283" height="325"/>
+        <image name="gameover.svg-layer1-4294966698.png" width="276" height="38"/>
+        <image name="left_final.png" width="254" height="293"/>
+        <image name="rect.png" width="329" height="199"/>
+        <image name="start_button.png" width="115" height="53"/>
+        <image name="tapstart3.png" width="276" height="60"/>
+    </resources>
+    <color key="tintColor" red="0.15931916495324661" green="0.85614903970705558" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>

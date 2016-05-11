@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1E9D2C1CE2D7D400D2E128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1E9D1C1CE2D7D400D2E128 /* AppDelegate.m */; };
+		DF1E9D2D1CE2D7D400D2E128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D1D1CE2D7D400D2E128 /* Assets.xcassets */; };
+		DF1E9D301CE2D7D400D2E128 /* ChippyChip-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D201CE2D7D400D2E128 /* ChippyChip-Info.plist */; };
+		DF1E9D311CE2D7D400D2E128 /* ChippyChipTests in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D221CE2D7D400D2E128 /* ChippyChipTests */; };
+		DF1E9D321CE2D7D400D2E128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D231CE2D7D400D2E128 /* Images.xcassets */; };
+		DF1E9D331CE2D7D400D2E128 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D241CE2D7D400D2E128 /* Info.plist */; };
+		DF1E9D341CE2D7D400D2E128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1E9D251CE2D7D400D2E128 /* main.m */; };
+		DF1E9D351CE2D7D400D2E128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D261CE2D7D400D2E128 /* Main.storyboard */; };
+		DF1E9D361CE2D7D400D2E128 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D271CE2D7D400D2E128 /* rect.png */; };
+		DF1E9D371CE2D7D400D2E128 /* tapstart2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D281CE2D7D400D2E128 /* tapstart2.png */; };
+		DF1E9D381CE2D7D400D2E128 /* tapstart3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1E9D291CE2D7D400D2E128 /* tapstart3.png */; };
+		DF3B75A71CE2E383004B5BA3 /* TITLE.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B75A61CE2E383004B5BA3 /* TITLE.png */; };
+		DF3B75A91CE2E3B0004B5BA3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B75A81CE2E3B0004B5BA3 /* back.png */; };
+		DF3B75AB1CE2E3D1004B5BA3 /* start_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B75AA1CE2E3D1004B5BA3 /* start_button.png */; };
+		DFD1DE451CE38688009B80EB /* buttons.svg-g3958-415.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE441CE38688009B80EB /* buttons.svg-g3958-415.png */; };
+		DFD1DE4B1CE3870D009B80EB /* buttons.svg-g3958-415.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE461CE3870D009B80EB /* buttons.svg-g3958-415.png */; };
+		DFD1DE4C1CE3870D009B80EB /* buttons.svg-g3997-4294966372.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE471CE3870D009B80EB /* buttons.svg-g3997-4294966372.png */; };
+		DFD1DE4D1CE3870D009B80EB /* buttons.svg-g4006-4294966863.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE481CE3870D009B80EB /* buttons.svg-g4006-4294966863.png */; };
+		DFD1DE4E1CE3870D009B80EB /* chippy_left.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE491CE3870D009B80EB /* chippy_left.png */; };
+		DFD1DE4F1CE3870D009B80EB /* chippy_right.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE4A1CE3870D009B80EB /* chippy_right.png */; };
+		DFD1DE511CE38758009B80EB /* buttons.svg-g3977-857.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE501CE38758009B80EB /* buttons.svg-g3977-857.png */; };
+		DFD1DE531CE38905009B80EB /* GameMain.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1DE521CE38905009B80EB /* GameMain.m */; };
+		DFD1DE561CE389AA009B80EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1DE551CE389AA009B80EB /* ViewController.m */; };
+		DFD1DE591CE38C62009B80EB /* branch.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE581CE38C62009B80EB /* branch.png */; };
+		DFD1DE5D1CE38C82009B80EB /* tree_startleft.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE5A1CE38C82009B80EB /* tree_startleft.png */; };
+		DFD1DE5E1CE38C82009B80EB /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE5B1CE38C82009B80EB /* tree.png */; };
+		DFD1DE5F1CE38C82009B80EB /* TRUNKleftno.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE5C1CE38C82009B80EB /* TRUNKleftno.png */; };
+		DFD1DE611CE38C8C009B80EB /* branchez.svg-g5828-04-88.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE601CE38C8C009B80EB /* branchez.svg-g5828-04-88.png */; };
+		DFD1DE631CE38CA1009B80EB /* chippyintree.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE621CE38CA1009B80EB /* chippyintree.png */; };
+		DFD1DE691CE38CD4009B80EB /* SCOREBOARD.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE641CE38CD4009B80EB /* SCOREBOARD.png */; };
+		DFD1DE6A1CE38CD4009B80EB /* TREE_RIGHT_FINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE651CE38CD4009B80EB /* TREE_RIGHT_FINAL.png */; };
+		DFD1DE6B1CE38CD4009B80EB /* tree_startleft.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE661CE38CD4009B80EB /* tree_startleft.png */; };
+		DFD1DE6C1CE38CD4009B80EB /* tree_startrightpng.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE671CE38CD4009B80EB /* tree_startrightpng.png */; };
+		DFD1DE6D1CE38CD4009B80EB /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE681CE38CD4009B80EB /* tree.png */; };
+		DFD1DE6F1CE38CF1009B80EB /* left_final.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE6E1CE38CF1009B80EB /* left_final.png */; };
+		DFD1DE711CE38D1C009B80EB /* gameover.svg-layer1-4294966698.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD1DE701CE38D1C009B80EB /* gameover.svg-layer1-4294966698.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF1E9CFA1CE2D34500D2E128 /* ChippyChip */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChippyChip; sourceTree = "<group>"; };
+		DF1E9CFC1CE2D37400D2E128 /* ChippyChipTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChippyChipTests; sourceTree = "<group>"; };
+		DF1E9D1B1CE2D7D400D2E128 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF1E9D1C1CE2D7D400D2E128 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF1E9D1D1CE2D7D400D2E128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1E9D201CE2D7D400D2E128 /* ChippyChip-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChippyChip-Info.plist"; sourceTree = "<group>"; };
+		DF1E9D211CE2D7D400D2E128 /* ChippyChip-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChippyChip-Prefix.pch"; sourceTree = "<group>"; };
+		DF1E9D221CE2D7D400D2E128 /* ChippyChipTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChippyChipTests; sourceTree = "<group>"; };
+		DF1E9D231CE2D7D400D2E128 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF1E9D241CE2D7D400D2E128 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1E9D251CE2D7D400D2E128 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF1E9D261CE2D7D400D2E128 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF1E9D271CE2D7D400D2E128 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
+		DF1E9D281CE2D7D400D2E128 /* tapstart2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapstart2.png; sourceTree = "<group>"; };
+		DF1E9D291CE2D7D400D2E128 /* tapstart3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapstart3.png; sourceTree = "<group>"; };
+		DF1E9D3A1CE2D7EC00D2E128 /* ChippyChip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChippyChip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3B75A61CE2E383004B5BA3 /* TITLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TITLE.png; path = ChippyChip/TITLE.png; sourceTree = "<group>"; };
+		DF3B75A81CE2E3B0004B5BA3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ChippyChip/back.png; sourceTree = "<group>"; };
+		DF3B75AA1CE2E3D1004B5BA3 /* start_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start_button.png; path = ChippyChip/start_button.png; sourceTree = "<group>"; };
+		DFD1DE441CE38688009B80EB /* buttons.svg-g3958-415.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttons.svg-g3958-415.png"; path = "ChippyChip/buttons.svg-g3958-415.png"; sourceTree = "<group>"; };
+		DFD1DE461CE3870D009B80EB /* buttons.svg-g3958-415.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttons.svg-g3958-415.png"; path = "ChippyChip/buttons.svg-g3958-415.png"; sourceTree = "<group>"; };
+		DFD1DE471CE3870D009B80EB /* buttons.svg-g3997-4294966372.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttons.svg-g3997-4294966372.png"; path = "ChippyChip/buttons.svg-g3997-4294966372.png"; sourceTree = "<group>"; };
+		DFD1DE481CE3870D009B80EB /* buttons.svg-g4006-4294966863.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttons.svg-g4006-4294966863.png"; path = "ChippyChip/buttons.svg-g4006-4294966863.png"; sourceTree = "<group>"; };
+		DFD1DE491CE3870D009B80EB /* chippy_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chippy_left.png; path = ChippyChip/chippy_left.png; sourceTree = "<group>"; };
+		DFD1DE4A1CE3870D009B80EB /* chippy_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chippy_right.png; path = ChippyChip/chippy_right.png; sourceTree = "<group>"; };
+		DFD1DE501CE38758009B80EB /* buttons.svg-g3977-857.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttons.svg-g3977-857.png"; path = "ChippyChip/buttons.svg-g3977-857.png"; sourceTree = "<group>"; };
+		DFD1DE521CE38905009B80EB /* GameMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMain.m; sourceTree = SOURCE_ROOT; };
+		DFD1DE541CE3890D009B80EB /* GameMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameMain.h; sourceTree = SOURCE_ROOT; };
+		DFD1DE551CE389AA009B80EB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFD1DE571CE389B1009B80EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFD1DE581CE38C62009B80EB /* branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = branch.png; path = ChippyChip/branch.png; sourceTree = "<group>"; };
+		DFD1DE5A1CE38C82009B80EB /* tree_startleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree_startleft.png; path = ChippyChip/tree_startleft.png; sourceTree = "<group>"; };
+		DFD1DE5B1CE38C82009B80EB /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree.png; path = ChippyChip/tree.png; sourceTree = "<group>"; };
+		DFD1DE5C1CE38C82009B80EB /* TRUNKleftno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TRUNKleftno.png; path = ChippyChip/TRUNKleftno.png; sourceTree = "<group>"; };
+		DFD1DE601CE38C8C009B80EB /* branchez.svg-g5828-04-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "branchez.svg-g5828-04-88.png"; path = "ChippyChip/branchez.svg-g5828-04-88.png"; sourceTree = "<group>"; };
+		DFD1DE621CE38CA1009B80EB /* chippyintree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chippyintree.png; path = ChippyChip/chippyintree.png; sourceTree = "<group>"; };
+		DFD1DE641CE38CD4009B80EB /* SCOREBOARD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCOREBOARD.png; path = ChippyChip/SCOREBOARD.png; sourceTree = "<group>"; };
+		DFD1DE651CE38CD4009B80EB /* TREE_RIGHT_FINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TREE_RIGHT_FINAL.png; path = ChippyChip/TREE_RIGHT_FINAL.png; sourceTree = "<group>"; };
+		DFD1DE661CE38CD4009B80EB /* tree_startleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree_startleft.png; path = ChippyChip/tree_startleft.png; sourceTree = "<group>"; };
+		DFD1DE671CE38CD4009B80EB /* tree_startrightpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree_startrightpng.png; path = ChippyChip/tree_startrightpng.png; sourceTree = "<group>"; };
+		DFD1DE681CE38CD4009B80EB /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree.png; path = ChippyChip/tree.png; sourceTree = "<group>"; };
+		DFD1DE6E1CE38CF1009B80EB /* left_final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_final.png; path = ChippyChip/left_final.png; sourceTree = "<group>"; };
+		DFD1DE701CE38D1C009B80EB /* gameover.svg-layer1-4294966698.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gameover.svg-layer1-4294966698.png"; path = "ChippyChip/gameover.svg-layer1-4294966698.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1E9CFF1CE2D6A100D2E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1E9D031CE2D6A100D2E128 /* ChippyChip */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E9D1B1CE2D7D400D2E128 /* AppDelegate.h */,
+				DF1E9D1C1CE2D7D400D2E128 /* AppDelegate.m */,
+				DF1E9D1D1CE2D7D400D2E128 /* Assets.xcassets */,
+				DF1E9D201CE2D7D400D2E128 /* ChippyChip-Info.plist */,
+				DF1E9D211CE2D7D400D2E128 /* ChippyChip-Prefix.pch */,
+				DF1E9D221CE2D7D400D2E128 /* ChippyChipTests */,
+				DF1E9D231CE2D7D400D2E128 /* Images.xcassets */,
+				DF1E9D241CE2D7D400D2E128 /* Info.plist */,
+				DF3B75A61CE2E383004B5BA3 /* TITLE.png */,
+				DFD1DE641CE38CD4009B80EB /* SCOREBOARD.png */,
+				DFD1DE651CE38CD4009B80EB /* TREE_RIGHT_FINAL.png */,
+				DFD1DE661CE38CD4009B80EB /* tree_startleft.png */,
+				DFD1DE671CE38CD4009B80EB /* tree_startrightpng.png */,
+				DFD1DE681CE38CD4009B80EB /* tree.png */,
+				DFD1DE521CE38905009B80EB /* GameMain.m */,
+				DFD1DE551CE389AA009B80EB /* ViewController.m */,
+				DFD1DE571CE389B1009B80EB /* ViewController.h */,
+				DFD1DE541CE3890D009B80EB /* GameMain.h */,
+				DF1E9D251CE2D7D400D2E128 /* main.m */,
+				DF1E9D261CE2D7D400D2E128 /* Main.storyboard */,
+				DF1E9D271CE2D7D400D2E128 /* rect.png */,
+				DF1E9D281CE2D7D400D2E128 /* tapstart2.png */,
+				DFD1DE461CE3870D009B80EB /* buttons.svg-g3958-415.png */,
+				DFD1DE701CE38D1C009B80EB /* gameover.svg-layer1-4294966698.png */,
+				DFD1DE471CE3870D009B80EB /* buttons.svg-g3997-4294966372.png */,
+				DFD1DE481CE3870D009B80EB /* buttons.svg-g4006-4294966863.png */,
+				DFD1DE491CE3870D009B80EB /* chippy_left.png */,
+				DFD1DE4A1CE3870D009B80EB /* chippy_right.png */,
+				DF3B75A81CE2E3B0004B5BA3 /* back.png */,
+				DF3B75AA1CE2E3D1004B5BA3 /* start_button.png */,
+				DFD1DE441CE38688009B80EB /* buttons.svg-g3958-415.png */,
+				DF1E9D291CE2D7D400D2E128 /* tapstart3.png */,
+				DFD1DE581CE38C62009B80EB /* branch.png */,
+				DFD1DE5A1CE38C82009B80EB /* tree_startleft.png */,
+				DFD1DE5B1CE38C82009B80EB /* tree.png */,
+				DFD1DE6E1CE38CF1009B80EB /* left_final.png */,
+				DFD1DE5C1CE38C82009B80EB /* TRUNKleftno.png */,
+				DFD1DE621CE38CA1009B80EB /* chippyintree.png */,
+				DFD1DE601CE38C8C009B80EB /* branchez.svg-g5828-04-88.png */,
+				DFD1DE501CE38758009B80EB /* buttons.svg-g3977-857.png */,
+				DF1E9CFA1CE2D34500D2E128 /* ChippyChip */,
+			);
+			path = ChippyChip;
+			sourceTree = "<group>";
+		};
+		DFD8F33F19A1B56C00DB84E5 = {
+			isa = PBXGroup;
+			children = (
+				DF1E9CFC1CE2D37400D2E128 /* ChippyChipTests */,
+				DF1E9D031CE2D6A100D2E128 /* ChippyChip */,
+				DF1E9D3A1CE2D7EC00D2E128 /* ChippyChip.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF1E9D011CE2D6A100D2E128 /* ChippyChip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1E9D161CE2D6A100D2E128 /* Build configuration list for PBXNativeTarget "ChippyChip" */;
+			buildPhases = (
+				DF1E9CFE1CE2D6A100D2E128 /* Sources */,
+				DF1E9CFF1CE2D6A100D2E128 /* Frameworks */,
+				DF1E9D001CE2D6A100D2E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChippyChip;
+			productName = ChippyChip;
+			productReference = DF1E9D3A1CE2D7EC00D2E128 /* ChippyChip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD8F34019A1B56C00DB84E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chinchilla Studios";
+				TargetAttributes = {
+					DF1E9D011CE2D6A100D2E128 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DFD8F34319A1B56C00DB84E5 /* Build configuration list for PBXProject "ChippyChip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD8F33F19A1B56C00DB84E5;
+			productRefGroup = DFD8F33F19A1B56C00DB84E5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF1E9D011CE2D6A100D2E128 /* ChippyChip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF1E9D001CE2D6A100D2E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD1DE511CE38758009B80EB /* buttons.svg-g3977-857.png in Resources */,
+				DFD1DE5E1CE38C82009B80EB /* tree.png in Resources */,
+				DF3B75A71CE2E383004B5BA3 /* TITLE.png in Resources */,
+				DFD1DE4D1CE3870D009B80EB /* buttons.svg-g4006-4294966863.png in Resources */,
+				DFD1DE4B1CE3870D009B80EB /* buttons.svg-g3958-415.png in Resources */,
+				DFD1DE4F1CE3870D009B80EB /* chippy_right.png in Resources */,
+				DFD1DE6C1CE38CD4009B80EB /* tree_startrightpng.png in Resources */,
+				DFD1DE4C1CE3870D009B80EB /* buttons.svg-g3997-4294966372.png in Resources */,
+				DF1E9D331CE2D7D400D2E128 /* Info.plist in Resources */,
+				DF1E9D361CE2D7D400D2E128 /* rect.png in Resources */,
+				DF1E9D2D1CE2D7D400D2E128 /* Assets.xcassets in Resources */,
+				DFD1DE6D1CE38CD4009B80EB /* tree.png in Resources */,
+				DF1E9D311CE2D7D400D2E128 /* ChippyChipTests in Resources */,
+				DFD1DE611CE38C8C009B80EB /* branchez.svg-g5828-04-88.png in Resources */,
+				DFD1DE6F1CE38CF1009B80EB /* left_final.png in Resources */,
+				DF1E9D321CE2D7D400D2E128 /* Images.xcassets in Resources */,
+				DFD1DE711CE38D1C009B80EB /* gameover.svg-layer1-4294966698.png in Resources */,
+				DFD1DE6A1CE38CD4009B80EB /* TREE_RIGHT_FINAL.png in Resources */,
+				DFD1DE591CE38C62009B80EB /* branch.png in Resources */,
+				DFD1DE631CE38CA1009B80EB /* chippyintree.png in Resources */,
+				DF1E9D371CE2D7D400D2E128 /* tapstart2.png in Resources */,
+				DF3B75AB1CE2E3D1004B5BA3 /* start_button.png in Resources */,
+				DFD1DE691CE38CD4009B80EB /* SCOREBOARD.png in Resources */,
+				DF3B75A91CE2E3B0004B5BA3 /* back.png in Resources */,
+				DF1E9D351CE2D7D400D2E128 /* Main.storyboard in Resources */,
+				DFD1DE451CE38688009B80EB /* buttons.svg-g3958-415.png in Resources */,
+				DFD1DE5F1CE38C82009B80EB /* TRUNKleftno.png in Resources */,
+				DFD1DE4E1CE3870D009B80EB /* chippy_left.png in Resources */,
+				DFD1DE5D1CE38C82009B80EB /* tree_startleft.png in Resources */,
+				DFD1DE6B1CE38CD4009B80EB /* tree_startleft.png in Resources */,
+				DF1E9D381CE2D7D400D2E128 /* tapstart3.png in Resources */,
+				DF1E9D301CE2D7D400D2E128 /* ChippyChip-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1E9CFE1CE2D6A100D2E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD1DE531CE38905009B80EB /* GameMain.m in Sources */,
+				DF1E9D341CE2D7D400D2E128 /* main.m in Sources */,
+				DFD1DE561CE389AA009B80EB /* ViewController.m in Sources */,
+				DF1E9D2C1CE2D7D400D2E128 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF1E9D171CE2D6A100D2E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ChippyChip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = clivingston.ChippyChip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF1E9D181CE2D6A100D2E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ChippyChip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = clivingston.ChippyChip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD8F37819A1B56C00DB84E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Main.storyboard;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFD8F37919A1B56C00DB84E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Main.storyboard;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF1E9D161CE2D6A100D2E128 /* Build configuration list for PBXNativeTarget "ChippyChip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1E9D171CE2D6A100D2E128 /* Debug */,
+				DF1E9D181CE2D6A100D2E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD8F34319A1B56C00DB84E5 /* Build configuration list for PBXProject "ChippyChip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD8F37819A1B56C00DB84E5 /* Debug */,
+				DFD8F37919A1B56C00DB84E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD8F34019A1B56C00DB84E5 /* Project object */;
+}
